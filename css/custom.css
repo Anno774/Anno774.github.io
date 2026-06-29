@@ -1,0 +1,54 @@
+#site-info #site-title {
+  color: #fff !important;
+  font-family: "YouYuan", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif !important;
+  font-size: 2.45rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 0 !important;
+  line-height: 1.25 !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.28) !important;
+}
+
+#site-info #site-subtitle,
+#site-info #site-subtitle .typed-cursor {
+  color: #fff !important;
+  font-family: "YouYuan", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif !important;
+  font-size: 1.25rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 0 !important;
+  line-height: 1.5 !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.28) !important;
+}
+#site-info {
+  text-align: center;
+  transform: translateY(-80px);
+}
+
+@media (max-width: 768px) {
+  #site-info #site-title {
+    font-size: 2.1rem !important;
+  }
+
+  #site-subtitle,
+  #site-subtitle .typed-cursor {
+    font-size: 1.15rem !important;
+  }
+}
+
+#site-info::before {
+  content: "";
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto 28px;
+  border-radius: 50%;
+  background-image: url("/img/IMG_0627.PNG");
+  background-size: cover;
+  background-position: center 25%;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.25);
+}
+
+#aside-content .card-widget.card-info .avatar-img {
+  object-fit: contain !important;
+  object-position: center top !important;
+  border-radius: 50% !important;
+}
